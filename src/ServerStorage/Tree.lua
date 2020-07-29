@@ -19,30 +19,31 @@ local ADORNMENTS_PER_FACE_LEVEL = 10
 Tree = {}
 Tree.__index = Tree
 
-function Tree.new(position, size, seed, leafColor, trunkColor)
+--[[
+    Tree.new(Vector3 position, Vector3 size, Color3 leafColor, Color3 trunkColor)
+]]
+function Tree.new(position, size, leafColor, trunkColor)
 
     local newTree = {}
     setmetatable(newTree, Tree)
 
     newTree.Position = position
     newTree.Size = size
-    newTree.Seed = seed
     newTree.LeafColor = leafColor
     newTree.TrunkColor = trunkColor
 
     newTree._trunkHeight = size.Y * (2/10)
     newTree._trunkWidth = size.X * (2/10)
-    newTree._decorationScale = 0.2 --size.X * (0.2)
 
     return newTree
 
 end
 
 --[[
-    Tree:Draw(double seed, Model parent)
-    Draws a physical model of Tree from seed
+    Tree:Draw(Model parent)
+    Draws a physical model of a christmas tree
 ]]
-function Tree:Draw(seed, parent)
+function Tree:Draw(parent)
 
     local treeModel = Instance.new("Model")
     treeModel.Name = "Tree"
@@ -102,8 +103,6 @@ function Tree:Draw(seed, parent)
     trunk.CFrame = CFrame.new(self.Position) + Vector3.new(0, self._trunkHeight, 0)/2
     trunk.Orientation = Vector3.new(0, 0, 90)
     trunk.Parent = treeModel
-
-    -- Draw star
 
     -- Draw decorations
     --[[

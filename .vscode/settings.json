@@ -1,0 +1,15 @@
+{
+    "Lua.diagnostics.globals": [
+        "game",
+        "Instance",
+        "Vector3",
+        "BrickColor",
+        "workspace",
+        "Random"
+    ],
+    "Lua.diagnostics.disable": [
+        "unused-function",
+        "lowercase-global",
+        "undefined-global"
+    ]
+}

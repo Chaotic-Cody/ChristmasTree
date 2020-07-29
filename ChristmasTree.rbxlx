@@ -1,0 +1,1056 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBXD506524712C3479692E76DE58033A186">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="CollisionGroups">Default^0^1</string>
+			<Ref name="CurrentCamera">RBXAF873ECCB8374BC4856247F79C38592C</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<bool name="FilteringEnabled">true</bool>
+			<float name="Gravity">196.199997</float>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+			<token name="SkinnedMeshEnabled">0</token>
+			<bool name="StreamingEnabled">false</bool>
+			<int name="StreamingMinRadius">64</int>
+			<token name="StreamingPauseMode">0</token>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TemporaryLegacyPhysicsSolverOverrideStreaming">false</bool>
+			<bool name="TerrainWeldsFixed">true</bool>
+		</Properties>
+		<Item class="Camera" referent="RBXAF873ECCB8374BC4856247F79C38592C">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-0.934681118</X>
+					<Y>79.7571793</Y>
+					<Z>-90.797821</Z>
+					<R00>-0.994412065</R00>
+					<R01>0.0551049002</R01>
+					<R02>-0.0900457054</R02>
+					<R10>3.7252903e-09</R10>
+					<R11>0.852957428</R11>
+					<R12>0.521980703</R12>
+					<R20>0.105568841</R20>
+					<R21>0.51906389</R21>
+					<R22>-0.848191023</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>-0.754589856</X>
+					<Y>78.7132187</Y>
+					<Z>-89.1014404</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBXA4152F55D15742AF9365FBD25831C6E3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-10</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Baseplate</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">0</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>20</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX84B5E00C9FE74DC79C8AF739051F8C04">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="Decoration">false</bool>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0.0470588282</R>
+					<G>0.329411775</G>
+					<B>0.360784322</B>
+				</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBXB86184AD815A490CB7BF3DA2C08FCA63">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBX9EFACD190A1E421F87684D41596919C8">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBX6F69C36DDCEE4FBBADC276922D232FC4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBXEE71EFB123D240B9A1248A7A5FF9D865">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BubbleChatEnabled">false</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX3C7B424C325A4DD29A8D2498593C47A3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXDDE4A1EC0DC0472096ECAC077AB654DE">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">56832</int>
+			<float name="RespawnTime">5</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBXCCD4A9AD3E0844A38F5D9721BAE3DEA7">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedFirst</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBXDEE11BF12A8541FD90455668F935F326">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TweenService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PermissionsService" referent="RBX508862F77A614CABAE611B4C40A039E3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PermissionsService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StudioData" referent="RBX68D68896D631401EB3AB9897DA62ECE9">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int64 name="CommitInflightAuthorId">0</int64>
+			<string name="CommitInflightGuid"></string>
+			<int name="CommitInflightPlaceVersion">0</int>
+			<bool name="EnableScriptCollabByDefaultOnLoad">false</bool>
+			<bool name="EnableScriptCollabOnLoad">false</bool>
+			<bool name="EnableScriptCollabVersionHistoryOnLoad">false</bool>
+			<string name="Name">StudioData</string>
+			<int64 name="SrcPlaceId">0</int64>
+			<int64 name="SrcUniverseId">0</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBX28D7D5C350EC4600A2B716BC95270A97">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">128</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">true</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBX630475AD263340B8A76CD9650CCBED44">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterPlayerScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBXD2AB9FE9D1984D16BE990DEF4774C3BB">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterCharacterScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX12D5348731F5414099309B9478BD6109">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterPack</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX791691A2FD304297B2530AED47A9CC86">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LocalizationService" referent="RBXC0F96A30D37B4AB98E5E7049E4E0E5F6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LocalizationService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX2F2DC68F617F4C669E342B831E900C05">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Teleport Service</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX7472E17ED9AB4CA6ADCA8886D5DC6BB4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CollectionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX5344DDC38B0241B9A549F2D649961356">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PhysicsService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX98ADD532E9244812915AE10056AF409F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Geometry</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBX3C629616ECE445209360D405C00184D5">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">InsertService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBX8E4F9B564D0C427D81942E2E56F147FC">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">GamePassService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX745B3FAD60684688B5C7E8C18EAFCC43">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX5B0AE5F60CAC4F67A0E2FD0B33D58688">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CookiesService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBXBDAD12B8DE41489BAEB88B0E8D7CF398">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VRService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX5310346490EB4117AADC5CFED228241F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ContextActionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX5F7530B4BB5547638C9140FFC5C45C80">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX6AF4FDE06D3D419CA8243585A7732DBD">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AssetService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBXDA985B47C4B944269CB19FF545F0DAF0">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TouchInputService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBXE39D56F7A1914F568450E6EF9690C459">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Selection</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX6306450D37AA4123A63FD3C8AEAEE9F5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Script" referent="RBX865121FC53DD4D1F863B81BE9C86AA0D">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">TreeGeneration</string>
+				<string name="ScriptGuid">{6B0FCA82-8698-40CA-B4F4-DF4A7AE3C38F}</string>
+				<ProtectedString name="Source"><![CDATA[local Tree = require(game:GetService("ServerStorage"):WaitForChild("Tree"))
+
+local position = Vector3.new(0, 0, 0)
+local size = Vector3.new(25, 50, 25)
+local seed = math.random(-10000, 10000)
+local leafColor = Color3.fromRGB(25, 63, 0)
+local trunkColor = Color3.fromRGB(56, 30, 0)
+
+local parent = Workspace
+
+--[[
+    Testing standard tree placement abd drawing
+]]
+local christmasTree = Tree.new(position, size, seed, leafColor, trunkColor)
+christmasTree:Draw(seed, parent)
+]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ServerStorage" referent="RBXBD413307F4AA4E56B9C4CEC52FF8533D">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ServerStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="ModuleScript" referent="RBXBC27A448268244FEB6898C79E61D654D">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Tree</string>
+				<string name="ScriptGuid">{5F2C69F0-1FC3-4BDC-B2F2-00D5BBCC1E06}</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    Tree.lua
+    Generates a tree via a position, size, leaf, and trunk colors
+    Decorates the tree randomly.
+    Tree.Position refers to the bottom of the trunk.
+    Size.X, Size.Z refers to the size of the base square
+    Size.Y refers to the height from the square to the apex
+    Trunk height will be determined based on a scale of the tree height
+]]
+
+local ServerStorage = game:GetService("ServerStorage")
+local TriangleModule = require(ServerStorage:WaitForChild("TriangleModule"))
+local Decorations = ServerStorage:WaitForChild("Decorations")
+local Adornments = Decorations:WaitForChild("Adornments")
+
+local WIDTH = 0.2
+local ADORNMENTS_PER_FACE_LEVEL = 10
+
+Tree = {}
+Tree.__index = Tree
+
+function Tree.new(position, size, seed, leafColor, trunkColor)
+
+    local newTree = {}
+    setmetatable(newTree, Tree)
+
+    newTree.Position = position
+    newTree.Size = size
+    newTree.Seed = seed
+    newTree.LeafColor = leafColor
+    newTree.TrunkColor = trunkColor
+
+    newTree._trunkHeight = size.Y * (2/10)
+    newTree._trunkWidth = size.X * (2/10)
+    newTree._decorationScale = 0.2 --size.X * (0.2)
+
+    return newTree
+
+end
+
+--[[
+    Tree:Draw(double seed, Model parent)
+    Draws a physical model of Tree from seed
+]]
+function Tree:Draw(seed, parent)
+
+    local treeModel = Instance.new("Model")
+    treeModel.Name = "Tree"
+    treeModel.Parent = parent
+    local decorationModel = Instance.new("Model")
+    decorationModel.Name = "Decorations"
+    decorationModel.Parent = treeModel
+
+    local apex = self.Position + Vector3.new(0, self.Size.Y, 0) + Vector3.new(0, self._trunkHeight, 0)
+
+    local leftDown = self.Position - Vector3.new(self.Size.X, 0, self.Size.Z)/2
+    local leftUp = self.Position - Vector3.new(self.Size.X, 0, 0)/2 + Vector3.new(0, 0, self.Size.Z)/2
+    local rightUp = self.Position + Vector3.new(self.Size.X, 0, self.Size.Z)/2
+    local rightDown = self.Position + Vector3.new(self.Size.X, 0, 0)/2 - Vector3.new(0, 0, self.Size.Z)/2
+
+    local vertexTable = {leftDown, leftUp, rightUp, rightDown}
+
+    -- Adjust vertices by trunkHeight
+    for i, vertex in pairs(vertexTable) do
+        vertexTable[i] = vertex + Vector3.new(0, self._trunkHeight, 0)
+    end
+
+    -- Draw vertices for each triangular face of pyramid
+    for i = 2, #vertexTable+1 do
+        local v1 = apex
+        local v2 = vertexTable[i-1]
+        local v3 = vertexTable[i]
+        if i > #vertexTable then
+            v3 = vertexTable[1]
+        end
+        local triangleModel = TriangleModule.DrawTriangle(v1, v2, v3, treeModel, WIDTH)
+        for j, triangle in ipairs(triangleModel:GetChildren()) do
+            triangle.Color = self.LeafColor
+        end
+    end
+
+    -- Draw in base of pyramid
+    local base = Instance.new("Part")
+    base.Name = "Base"
+    base.Anchored = true
+    base.Color = self.LeafColor
+    base.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+    base.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+    base.Size = Vector3.new(self.Size.X, WIDTH, self.Size.Z)
+    base.CFrame = CFrame.new(self.Position) + Vector3.new(0, self._trunkHeight, 0) - Vector3.new(0, WIDTH, 0)/2
+    base.Parent = treeModel
+
+    -- Draw trunk
+    local trunk = Instance.new("Part")
+    trunk.Name = "Trunk"
+    trunk.Anchored = true
+    trunk.Color = self.TrunkColor
+    trunk.TopSurface = "SmoothNoOutlines"
+    trunk.BottomSurface = "SmoothNoOutlines"
+    trunk.Shape = "Cylinder"
+    trunk.Size = Vector3.new(self._trunkHeight, self._trunkWidth, self._trunkWidth)
+    trunk.CFrame = CFrame.new(self.Position) + Vector3.new(0, self._trunkHeight, 0)/2
+    trunk.Orientation = Vector3.new(0, 0, 90)
+    trunk.Parent = treeModel
+
+    -- Draw star
+
+    -- Draw decorations
+    --[[
+        Given: 
+        Side of base square (a)
+        side of slant from v1 to apex (e)
+
+        we can find the new height of the prism
+    ]]
+    local iteration = 1
+    local h = self.Size.Y
+    local v1 = vertexTable[iteration]
+    local v2 = vertexTable[iteration + 1]
+
+    while h > 1 do
+
+        for i = 0, ADORNMENTS_PER_FACE_LEVEL do
+
+            local bell = Adornments:FindFirstChild("Bell"):Clone()
+            bell.Name = tostring(i)
+            --bell.Size = Vector3.new(1, 1, 1) * self._decorationScale
+            --
+            local scaledSize = (v2 - v1).magnitude / ADORNMENTS_PER_FACE_LEVEL
+            bell.Size = Vector3.new(1, 1, 1) * scaledSize
+            --self._decorationScale = scaledSize
+            --
+            bell.Position = v1 + (v2 - v1).unit * ((i/ADORNMENTS_PER_FACE_LEVEL) * (v2 - v1).magnitude)
+            bell.Parent = decorationModel
+
+            if i ~= ADORNMENTS_PER_FACE_LEVEL then
+
+                -- update vertices by pushing them back along the line to the apex
+                for j = 1, #vertexTable do
+                    local p = apex + ((vertexTable[j] - apex).unit) * ((vertexTable[j] - apex).magnitude - WIDTH)
+                    --print("this is p ", p)
+                    vertexTable[j] = p
+                end
+
+                -- use pythagorean theorem to figure out new height based on the slant and inradius
+                local r = (v2 - v1).magnitude / 2
+                local midpoint = v1 + (v2 - v1).unit * r
+                local slant = (apex - midpoint).magnitude
+
+                h = math.sqrt(slant^2 - r^2)
+
+            end
+
+            v1 = vertexTable[iteration % #vertexTable ~= 0 and iteration % #vertexTable or #vertexTable]
+            v2 = vertexTable[(iteration + 1) % #vertexTable ~= 0 and (iteration + 1) % #vertexTable or #vertexTable]
+
+        end
+        iteration = iteration + 1
+
+        v1 = vertexTable[iteration % #vertexTable ~= 0 and iteration % #vertexTable or #vertexTable]
+        v2 = vertexTable[(iteration + 1) % #vertexTable ~= 0 and (iteration + 1) % #vertexTable or #vertexTable]
+
+    end
+
+    return treeModel
+
+end
+
+return Tree]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBXECC6FFA9CA474E8C92881C8ED195816D">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Decorations</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Folder" referent="RBX79E2435012BE4D77A4DAA57942310D21">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Adornments</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="Part" referent="RBX4A4A6C3C874A407CA2DE8DDBDDB7A44B">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-6.0999999</X>
+							<Y>0.500003994</Y>
+							<Z>-10.8000002</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastShadow">true</bool>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4289003522</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">false</bool>
+						<token name="Material">1568</token>
+						<string name="Name">Bell</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">0</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="ModuleScript" referent="RBX717DFF7BAC594D0899B277186F692D77">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">TriangleModule</string>
+				<string name="ScriptGuid">{EE7BD2FD-A9FC-4741-842C-3889F458C870}</string>
+				<ProtectedString name="Source"><![CDATA[local TriangleModule = {
+    --[[
+    Vector3 A, B, and C
+    DataModel Parent 
+    [optional] Vector3 center
+    ]]	
+        DrawTriangle = function(a, b, c, parent, width)
+            local width = width and width or 0.2
+            local wedge = Instance.new("WedgePart") -- Make the wedge we'll need later
+            wedge.Anchored = true
+            wedge.TopSurface = Enum.SurfaceType.Smooth
+            wedge.BottomSurface = Enum.SurfaceType.Smooth
+            wedge.Material = "SmoothPlastic"
+            --wedge.Color = Color3.new(0, 110/255, 255/255)
+            wedge.Transparency = 0
+            wedge.CanCollide = true
+            local edges = {
+                {longest = (c - b), other = (a - b), position = b},
+                {longest = (a - c), other = (b - c), position = c},
+                {longest = (b - a), other = (c - a), position = a},
+            }
+            table.sort(edges, function(a, b) return a.longest.magnitude > b.longest.magnitude end)
+            local edge = edges[1]
+            -- get angle between two vectors
+            local theta = math.acos(edge.longest.unit:Dot(edge.other.unit)) -- angle between two vectors
+            -- SOHCAHTOA
+            local s1 = Vector2.new(edge.other.magnitude * math.cos(theta), edge.other.magnitude * math.sin(theta))
+            local s2 = Vector2.new(edge.longest.magnitude - s1.x, s1.y)
+            -- positions
+            local p1 = edge.position + edge.other * 0.5 -- wedge1's position
+            local p2 = edge.position + edge.longest + (edge.other - edge.longest) * 0.5 -- wedge2's position
+            -- rotation matrix facing directions
+            local right = edge.longest:Cross(edge.other).unit
+            local up = right:Cross(edge.longest).unit
+            local back = edge.longest.unit
+            -- put together the cframes
+            local cf1 = CFrame.new( -- wedge1 cframe
+                p1.x + (-right.x * (width/2)), p1.y + (-right.y * (width/2)), p1.z + (-right.z * (width/2)),
+                -right.x, up.x, back.x,
+                -right.y, up.y, back.y,
+                -right.z, up.z, back.z
+            )
+            local cf2 = CFrame.new( -- wedge2 cframe
+                p2.x + (right.x * (-width/2)), p2.y + (right.y * (-width/2)), p2.z + (right.z * (-width/2)),
+                right.x, up.x, -back.x,
+                right.y, up.y, -back.y,
+                right.z, up.z, -back.z
+            )
+            --]]
+            --[[
+            local cf1 = CFrame.new( -- wedge1 cframe
+            p1.x, p1.y, p1.z,
+            -right.x, up.x, back.x,
+            -right.y, up.y, back.y,
+            -right.z, up.z, back.z
+            )
+            local cf2 = CFrame.new( -- wedge2 cframe
+                p2.x, p2.y, p2.z,
+                right.x, up.x, -back.x,
+                right.y, up.y, -back.y,
+                right.z, up.z, -back.z
+            )
+            --]]
+            -- cf1 = cf1 + cf1.RightVector * (width/2)
+            -- cf2 = cf2 + cf2.RightVector * (-width/2)
+            -- put it all together by creating the wedges
+            local model = Instance.new("Model")
+            model.Parent = parent
+            model.Name = "Triangle"
+            local w1 = wedge:Clone()
+            w1.Name = "Wedge1"
+            local w2 = wedge:Clone()
+            w2.Name = "Wedge2"
+            w1.Size = Vector3.new(width, s1.y, s1.x)
+            w2.Size = Vector3.new(width, s2.y, s2.x)
+            w1.CFrame = cf1
+            w2.CFrame = cf2
+            w1.Parent = model
+            w2.Parent = model
+            
+            return model
+        end,
+        
+    --[[
+    Vector3 A, B, and C
+    Model Triangle 
+    ]]	
+        UpdateTriangle = function(a, b, c, triangle)
+            local edges = {
+                {longest = (c - b), other = (a - b), position = b},
+                {longest = (a - c), other = (b - c), position = c},
+                {longest = (b - a), other = (c - a), position = a},
+            }
+            table.sort(edges, function(a, b) return a.longest.magnitude > b.longest.magnitude end)
+            local edge = edges[1]
+            -- get angle between two vectors
+            local theta = math.acos(edge.longest.unit:Dot(edge.other.unit)) -- angle between two vectors
+            -- SOHCAHTOA
+            local s1 = Vector2.new(edge.other.magnitude * math.cos(theta), edge.other.magnitude * math.sin(theta))
+            local s2 = Vector2.new(edge.longest.magnitude - s1.x, s1.y)
+            -- positions
+            local p1 = edge.position + edge.other * 0.5 -- wedge1's position
+            local p2 = edge.position + edge.longest + (edge.other - edge.longest) * 0.5 -- wedge2's position
+            -- rotation matrix facing directions
+            local right = edge.longest:Cross(edge.other).unit
+            local up = right:Cross(edge.longest).unit
+            local back = edge.longest.unit
+            -- put together the cframes
+            local cf1 = CFrame.new( -- wedge1 cframe
+                p1.x, p1.y, p1.z,
+                -right.x, up.x, back.x,
+                -right.y, up.y, back.y,
+                -right.z, up.z, back.z
+            )
+            local cf2 = CFrame.new( -- wedge2 cframe
+                p2.x, p2.y, p2.z,
+                right.x, up.x, -back.x,
+                right.y, up.y, -back.y,
+                right.z, up.z, -back.z
+            )
+            -- put it all together by creating the wedges
+            local w1 = triangle:FindFirstChild("Wedge1")
+            local w2 = triangle:FindFirstChild("Wedge2")
+            w1.Size = Vector3.new(0.2, s1.y, s1.x)
+            w2.Size = Vector3.new(0.2, s2.y, s2.x)
+            w1.CFrame = cf1
+            w2.CFrame = cf2
+        end
+        
+    }
+    
+    return TriangleModule]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBX86FA8F4A8D854D3F9CA902CD50356549">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LuaWebService" referent="RBX8465ECEA16AE491E8F92EBC6CB2DCBEC">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBXF93897FFAD5249E39DD3918811C71CB2">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>0.541176498</R>
+				<G>0.541176498</G>
+				<B>0.541176498</B>
+			</Color3>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="Brightness">2</float>
+			<Color3 name="ColorShift_Bottom">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="EnvironmentDiffuseScale">0</float>
+			<float name="EnvironmentSpecularScale">0</float>
+			<float name="ExposureCompensation">0</float>
+			<Color3 name="FogColor">
+				<R>0.752941251</R>
+				<G>0.752941251</G>
+				<B>0.752941251</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>0.501960814</R>
+				<G>0.501960814</G>
+				<B>0.501960814</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<float name="ShadowSoftness">0.200000003</float>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">3</token>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="RBX6D0F0F4F57BA491983DFCC3CD094C2DB">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TestService" referent="RBX9C1800DC5650430395DBDE5EFA5455E9">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoRuns">true</bool>
+			<string name="Description"></string>
+			<bool name="ExecuteWithStudioRun">false</bool>
+			<bool name="Is30FpsThrottleEnabled">true</bool>
+			<bool name="IsPhysicsEnvironmentalThrottled">true</bool>
+			<bool name="IsSleepAllowed">true</bool>
+			<string name="Name">TestService</string>
+			<int name="NumberOfPlayers">0</int>
+			<double name="SimulateSecondsLag">0</double>
+			<BinaryString name="Tags"></BinaryString>
+			<double name="Timeout">10</double>
+		</Properties>
+	</Item>
+	<Item class="VirtualInputManager" referent="RBX1DAEE85BBCC342C3AF0FA9435102E66C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VirtualInputManager</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+</roblox>
